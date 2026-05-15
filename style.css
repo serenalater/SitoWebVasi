@@ -12,6 +12,7 @@
     justify-content: space-between;
     padding: 20px 50px 20px 50px;
     align-items: center;
+        justify-content: center;
 
 }
 .ctn_navbar {
@@ -43,7 +44,7 @@
 
 .hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./bgimg_hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/bgimg_hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -89,6 +90,7 @@
     text-transform: uppercase;
     font-weight: 400;
 }
+
 .hero_description p {
     color: #fff;
 
