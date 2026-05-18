@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-.cointainer_navbar {
+.container_navbar {
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@
     
 }
 
-.cointainer_hero {
+.container_hero {
     height: 100vh;
     width: 1430px;
     display: flex;
