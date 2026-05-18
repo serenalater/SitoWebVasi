@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Vasi Stampati in 3D</title>
 </head>
 <body>
     
@@ -28,11 +30,11 @@
     </header>
 
     <!-- section hero -->
-    <section class="hero">
-        <div class="cointainer_hero">
-            <div class="hero_description">
-                <h1>Vasi stampati in 3D dal design contemporaneo</h1>
-                <h2>Il futuro del design prende forma</h2>
+    <section class="container-fluid hero">
+        <div class="container cointainer_hero">
+            <div class="hero_description col-6">
+                <h1 class="h1">Vasi stampati in 3D dal design contemporaneo</h1>
+                <h2 class="h2">Il futuro del design prende forma</h2>
                 <p>Realizziamo vasi stampati in 3D che combinano innovazione tecnologica, ricerca estetica e materiali sostenibili per dare carattere a ogni ambiente.</p>
                 <div class="ctn_pulsanti">
                     <button class="btn"><a href="#servizi">Tutti i prodotti</a></button> 
@@ -40,27 +42,26 @@
                 </div>
 
             </div>  
-            <div class="vuoto"> 
-            </div>
+           
         </div>
     </section>
 
 
 
     <!-- section introduzione -->
-    <section>
-        <div class="ctn_info">
-            <div class="title_info">
+    <section class="container-fluid mt-5">
+        <div class="container-fluid row justify-content-center">
+            <div class="col-6">
                 <h2>Soluzioni decorative innovative per interni ed esterni</h2>
             </div>
-            <div class="info_description">
+            <div class="col-6">
                 <p>Utilizziamo la stampa 3D per creare complementi d’arredo dal design innovativo, con geometrie impossibili da ottenere con la produzione tradizionale. </p>
                 <p>Design essenziale, lavorazione digitale e attenzione ai dettagli: collezioni di vasi contemporanei pensate per ambienti ricercati.</p>
                 <button class="btn_2"><a href="#">Richiedi Preventivo</a></button>
 
             </div>
         </div>
-        <div>
+        <div class="mt-5">
             <img class="illustrazione" src="./img/illustrazione_vasi.png" alt="">
         </div>
 
@@ -71,13 +72,13 @@
 
 
     <!-- section servizi -->
-    <section class="cnt_servizi" id="servizi">
-        <div class="servizi_description">
+    <section class="container-fluid cnt_servizi mt-5 justify-content-center" id="servizi">
+        <div class="container">
             <h2>I nostri Vasi</h2>
             <p>Le nostre collezioni di vasi stampati in 3D nascono dall’incontro tra design contemporaneo e innovazione tecnologica. Ogni pezzo è progettato per valorizzare gli spazi attraverso forme essenziali, texture ricercate e una produzione sostenibile, offrendo oggetti decorativi unici e personalizzabili.</p>
         </div>
 
-        <div class="contenitore">
+        <div class="container justify-content-center">
             
             
         <!-- card 1-->
@@ -146,5 +147,7 @@
         </div>
     </section>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
