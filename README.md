@@ -36,3 +36,13 @@ console.log("Hello Class!");
 | Html | V.5 |
 | Css | V.4 |
 | Js | V.Es5 |
+
+
+> Lorem ipsum dolor sit amet consectetur adipisicit elit.
+
+---
+
+- [x] Login
+- [x] Dashboard
+- [ ] Chat
+
