@@ -135,6 +135,9 @@
     transition: all ease 0.4s;
 }
 
+input.btn_2 {
+    color: #fff;
+}
 .btn_2:hover {
     background-color: transparent;
     border: 1px solid #000000;
