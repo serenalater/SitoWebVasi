@@ -27,5 +27,5 @@ Per avviare i progetti utilizza `go-live server`
 console.log("Hello Class!");
 ```
 
-[SitoVasi(https://sito-web-vasi.vercel.app/)]
+[SitoVasi](https://sito-web-vasi.vercel.app/)
 
