@@ -42,7 +42,7 @@ console.log("Hello Class!");
 
 ---
 
-- [x] Login
-- [x] Dashboard
-- [ ] Chat
+- [x] Fronted Completato
+- [x] Dashboard Completata
+- [ ] Backend da tipizzare
 
