@@ -30,3 +30,9 @@ console.log("Hello Class!");
 [SitoVasi](https://sito-web-vasi.vercel.app/)
 ![HeroScreen](./img/screen1_sitovasi.png.png)
 
+
+| Tecnologie  |  Versione | 
+|---|---|
+| Html | V.5 |
+| Css | V.4 |
+| Js | V.Es5 |
