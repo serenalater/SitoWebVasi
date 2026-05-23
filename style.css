@@ -6,24 +6,12 @@
     scroll-behavior: smooth;
 }
 
-.container_navbar {
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px 20px 50px;
-    align-items: center;
-    justify-content: center;
-
-}
-.ctn_navbar {
-    width: 1430px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.navbar {
+    background-color: transparent !important;
+    z-index: 999;
 }
 
-.logo img {
+.navbar img {
     width: 40px;
     height: auto;
     
@@ -52,14 +40,7 @@
     
 }
 
-.container_hero {
-    height: 100vh;
-    width: 1430px;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin: 50px auto;
-}
+
 
 
 
@@ -68,7 +49,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 50px;
 }
 
 .hero_description h2 {
